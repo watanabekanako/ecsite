@@ -1,0 +1,116 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  /* grid-template-rows: 200px 200px;  */
+  grid-gap: 10px; 
+  margin-bottom: 20px;
+}
+.wrapper > div {
+  border-radius: 5px;
+  background: rgb(207,232,220);
+  border: 2px solid rgb(79,185,227);
+  padding: 1em;
+} 
+
+.mannaka{
+ display: block;
+margin-left: auto;
+margin-right: auto 
+}
+
+.panel{
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  padding: 10px 15px;
+  text-align: center;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  margin-top: 10px;
+} 
+
+/* .title{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+  text-align: center;
+}  */
+
+.body{
+  padding: 15px;
+  box-sizing: border-box;
+  /* width: 300px; */
+  text-align: center;
+  /* margin-right: 0; */
+  
+  /* display:flex; */
+}
+
+/* .kensaku{
+  text-align: center!important;
+  box-sizing: border-box;
+} */
+
+/* .default{
+  border-color: #ddd;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+  border-width: 2px;
+  border-style: solid;
+}  */
+
+.syouhinmei{
+  text-align: center;
+}
+
+.inputkensaku{
+  text-align: center;
+ 
+}
+
+.gaitou{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size:20px;
+} 
+
+.row{
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+} 
+
+.kensakunakami{
+  margin: 15px;
+  /* width: 100px; */
+}
+
+.btnDatail {
+  width: 80px;
+  /* margin: 50px auto; */
+  background-color: #d9534f;
+  border-color: #d9534f;
+  border-radius: 10px;
+  /* padding: 20px; */
+}
+
+
+.clea{
+  border-color: gray;
+  background-color: white;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.haha{
+  color: black;
+  border:none;
+  text-decoration: none;
+  text-decoration-color:#333;
+}
