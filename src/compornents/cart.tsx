@@ -144,6 +144,7 @@ function CartPage({ items, quantity }: any) {
                       }
                     )}
                   </td> */}
+
                       <td>
                         <span className="text-center">
                           <button onClick={() => setCount(count - 1)}>
